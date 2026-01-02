@@ -1,0 +1,7 @@
+# Robots.txt - nettoyage-canape-a-domicile.fr
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Sitemap: https://nettoyage-canape-a-domicile.fr/sitemap.xml

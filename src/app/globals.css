@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fcfaf7;
+    --foreground: #1a1a1a;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+
+  body {
+    @apply bg-pearlescent text-slate-deep antialiased;
+    font-family: var(--font-outfit), sans-serif;
+    line-height: 1.4;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-black tracking-tight;
+    line-height: 0.9;
+  }
+}
+
+@layer components {
+  /* Pearly Filament Background Effect */
+  .bg-filament {
+    @apply fixed inset-0 -z-10 opacity-60;
+    background: 
+      radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.15) 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.15) 0%, transparent 40%);
+  }
+
+  .filament-line {
+    @apply absolute w-[1px] h-screen animate-move-lines;
+    background: linear-gradient(to bottom, transparent, rgba(197, 160, 89, 0.2), transparent);
+  }
+
+  .data-label {
+    @apply font-mono text-[0.7rem] uppercase tracking-[3px] text-gold mb-5 block border-l-2 border-gold pl-[15px];
+  }
+
+  .btn-luxury {
+    @apply inline-flex items-center px-10 py-5 bg-slate-deep text-white no-underline font-mono text-[0.8rem] uppercase tracking-[2px] rounded-full transition-all duration-300 hover:scale-105 hover:bg-gold;
+  }
+
+  .visual-container {
+    @apply relative h-[70vh] rounded-t-[300px] overflow-hidden border border-white/60 shadow-soft bg-gray-200;
+  }
+
+  .visual-image {
+    @apply w-full h-full object-cover saturate-[0.8] brightness-[1.1] transition-transform duration-[1500ms] ease-[cubic-bezier(0.19,1,0.22,1)] hover:scale-105;
+  }
+
+  .service-card-luxury {
+    @apply p-10 lg:p-14 bg-white border border-gray-100 transition-all duration-500 ease-[cubic-bezier(0.165,0.84,0.44,1)] relative overflow-hidden cursor-pointer hover:-translate-y-2 hover:border-gold hover:shadow-[0_30px_60px_rgba(0,0,0,0.03)];
+  }
+
+  .service-card-luxury::before {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity duration-500;
+    background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.15), transparent);
+  }
+
+  .service-card-luxury:hover::before {
+    @apply opacity-100;
+  }
+
+  .pearl-orb {
+    @apply absolute w-[300px] h-[300px] rounded-full blur-[60px] -z-10 pointer-events-none;
+    background: radial-gradient(circle, white, transparent);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Screen-reader only - Accessibilité */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  /* Annule sr-only au focus - Pour skip-link */
+  .focus\:not-sr-only:focus {
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+}
