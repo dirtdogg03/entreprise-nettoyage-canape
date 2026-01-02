@@ -1,0 +1,57 @@
+{
+  "name": "entreprise-nettoyage-canape",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:accents": "bash scripts/test-accents.sh",
+    "fix:accents": "node scripts/fix-french-accents.js --fix src/lib/data/*.ts src/components/**/*.tsx src/app/**/*.tsx",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@tailwindcss/typography": "^0.5.19",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.26",
+    "lucide-react": "^0.562.0",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix"
+    ],
+    "src/lib/data/*.ts": [
+      "node scripts/fix-french-accents.js --check"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.23",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

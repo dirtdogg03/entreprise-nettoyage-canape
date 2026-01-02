@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Vérification des accents français
+npm run test:accents
+
+# Lint des fichiers staged
+npx lint-staged
