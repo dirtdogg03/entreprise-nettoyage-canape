@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { company } from '@/lib/data/company';
 import { services } from '@/lib/data/services';
 import { locations as mainCities } from '@/lib/data/locations';
+import { supabase } from '@/lib/supabase';
 
 type FormStep = 1 | 2 | 3;
 
@@ -199,9 +200,21 @@ export default function ServiceForm({
 
     setStatus('submitting');
 
-    // Simulation d'envoi (remplacer par vraie API)
+    // Envoi vers Supabase
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      const { error } = await supabase.from('leads').insert({
+        service: formData.service,
+        city: formData.city === 'other' ? (detectedCity || formData.customCity) : formData.city,
+        postal_code: formData.postalCode || null,
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email || null,
+        message: formData.message || null,
+        wants_waitlist: formData.wantsWaitlist,
+      });
+
+      if (error) throw error;
+
       // Si waitlist, statut différent
       if (formData.wantsWaitlist) {
         setStatus('waitlist');
