@@ -41,8 +41,8 @@ export const articles: Article[] = [
     image: '/images/blog/guide-complet-nettoyer-canape.jpg',
     category: 'nettoyage',
     isPillar: true,
-    relatedArticles: ['nettoyer-canape-tissu', 'nettoyer-canape-cuir', 'nettoyer-canape-microfibre', 'nettoyage-canape-velours', 'nettoyage-canape-non-dehoussable'],
-    relatedServices: ['nettoyer-canape-tissu', 'nettoyage-canapé-cuir'],
+    relatedArticles: ['nettoyage-canape-tissu', 'nettoyer-canape-cuir', 'nettoyer-canape-microfibre', 'nettoyage-canape-velours', 'nettoyage-canape-non-dehoussable'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-cuir'],
     keywords: ['nettoyer canapé', 'nettoyage canapé', 'comment nettoyer un canapé', 'laver canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -180,7 +180,7 @@ Votre canapé est bien plus qu'un simple meuble : c'est le cœur de votre espace
 
 L'entretien d'un canapé repose sur trois piliers. L'aspiration hebdomadaire élimine la poussière avant qu'elle ne s'incruste. Le nettoyage mensuel au bicarbonate désodorise et absorbe les salissures légères. L'intervention professionnelle annuelle nettoie en profondeur et traité les zones difficiles. En respectant cette routine, votre canapé conservera son aspect neuf pendant de nombreuses années.
 
-Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous en Île-de-France avec du matériel professionnel et des produits adaptés à chaque type de revêtement. [Contactez-nous](/contact) pour un devis gratuit et redonnez à votre canapé l'éclat qu'il mérite.
+Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous à Paris et en petite couronne (75, 92, 93, 94) avec du matériel professionnel et des produits adaptés à chaque type de revêtement. [Contactez-nous](/contact) pour un devis gratuit et redonnez à votre canapé l'éclat qu'il mérite.
 
 ---
 
@@ -195,7 +195,7 @@ Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous en Î
   },
   {
     id: 2,
-    slug: 'nettoyer-canape-tissu',
+    slug: 'nettoyage-canape-tissu',
     title: 'Comment Nettoyer un Canapé en Tissu : Méthodes Efficaces',
     metaTitle: 'Nettoyer Canapé Tissu : Guide Complet et Astuces Pro',
     metaDescription: 'Apprenez à nettoyer efficacement votre canapé en tissu. Techniques maison, produits recommandés et conseils de professionnels du nettoyage.',
@@ -204,7 +204,7 @@ Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous en Î
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['guide-complet-nettoyer-canape', 'détachage-canape-guide'],
-    relatedServices: ['nettoyer-canape-tissu'],
+    relatedServices: ['nettoyage-canape-tissu'],
     keywords: ['nettoyer canapé tissu', 'nettoyage canapé tissu', 'laver canapé tissu'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -308,7 +308,7 @@ Les canapés marqués S (solvants uniquement) ne peuvent pas être nettoyés cor
 
 Pour un nettoyage annuel en profondeur, même si vous entretenez régulièrement votre canapé, l'intervention d'un professionnel complète utilement votre routine. Sa machine à injection-extraction atteint les couches profondes du rembourrage, là où l'aspirateur et le nettoyeur vapeur domestiques ne pénètrent pas.
 
-Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous avec du matériel professionnel. Notre technique d'injection-extraction élimine les saletés incrustées et les allergènes logés dans les profondeurs du rembourrage. [Demandez un devis gratuit](/services/nettoyage-canapé-tissu) et redonnez une seconde jeunesse à votre canapé.
+Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous avec du matériel professionnel. Notre technique d'injection-extraction élimine les saletés incrustées et les allergènes logés dans les profondeurs du rembourrage. [Demandez un devis gratuit](/services/nettoyage-canape-tissu) et redonnez une seconde jeunesse à votre canapé.
 
 ---
 
@@ -331,7 +331,7 @@ Chez Nettoyage Canapé à Domicile, nous intervenons directement chez vous avec 
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['guide-complet-nettoyer-canape', 'entretien-canape-cuir-conseils'],
-    relatedServices: ['nettoyage-canapé-cuir'],
+    relatedServices: ['nettoyage-canape-cuir'],
     keywords: ['nettoyer canapé cuir', 'entretien canapé cuir', 'nettoyage cuir'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -449,7 +449,7 @@ Les taches anciennes ou incrustées nécessitent des solvants et des techniques 
 
 Les cuirs craquelés ou décolorés peuvent être restaurés par des spécialistes qui appliquent des résines et des pigments pour reconstituer la surface du cuir.
 
-Chez Nettoyage Canapé à Domicile, nous intervenons sur tous les types de cuir avec des produits professionnels adaptés à chaque situation. [Contactez-nous](/services/nettoyage-canapé-cuir) pour un diagnostic gratuit de votre canapé.
+Chez Nettoyage Canapé à Domicile, nous intervenons sur tous les types de cuir avec des produits professionnels adaptés à chaque situation. [Contactez-nous](/services/nettoyage-canape-cuir) pour un diagnostic gratuit de votre canapé.
 
 ---
 
@@ -471,8 +471,8 @@ Chez Nettoyage Canapé à Domicile, nous intervenons sur tous les types de cuir 
     image: '/images/blog/nettoyer-canape-microfibre.jpg',
     category: 'nettoyage',
     isPillar: false,
-    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-tissu'],
-    relatedServices: ['nettoyage-canapé-microfibre'],
+    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyage-canape-tissu'],
+    relatedServices: ['nettoyage-canape-microfibre'],
     keywords: ['nettoyer canapé microfibre', 'nettoyage microfibre', 'auréoles canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -577,7 +577,7 @@ Certaines situations dépassent les possibilités du nettoyage domestique. Les t
 
 Un professionnel dispose de machines à injection-extraction qui nettoient en profondeur tout en contrôlant précisément l'humidité. Le résultat est un canapé impeccable, sans risque d'auréoles, avec des temps de séchage réduits grâce à l'aspiration puissante de l'eau injectée.
 
-Chez Nettoyage Canapé à Domicile, nous intervenons sur tous les types de microfibre avec des équipements et des produits professionnels. [Demandez un devis gratuit](/services/nettoyage-canapé-microfibre) pour redonner à votre canapé son aspect d'origine.
+Chez Nettoyage Canapé à Domicile, nous intervenons sur tous les types de microfibre avec des équipements et des produits professionnels. [Demandez un devis gratuit](/services/nettoyage-canape-microfibre) pour redonner à votre canapé son aspect d'origine.
 
 ---
 
@@ -599,7 +599,7 @@ Chez Nettoyage Canapé à Domicile, nous intervenons sur tous les types de micro
     image: '/images/blog/nettoyage-canape-velours.jpg',
     category: 'nettoyage',
     isPillar: false,
-    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-tissu'],
+    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyage-canape-tissu'],
     relatedServices: ['nettoyage-canape-velours'],
     keywords: ['nettoyage canapé velours', 'nettoyer velours', 'entretien velours'],
     publishedAt: '2025-01-15',
@@ -724,8 +724,8 @@ Chez Nettoyage Canapé à Domicile, nos techniciens sont formés au traitement d
     image: '/images/blog/nettoyage-canape-non-dehoussable.jpg',
     category: 'nettoyage',
     isPillar: false,
-    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-tissu'],
-    relatedServices: ['nettoyer-canape-tissu'],
+    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyage-canape-tissu'],
+    relatedServices: ['nettoyage-canape-tissu'],
     keywords: ['canapé non déhoussable', 'nettoyer canapé fixe', 'nettoyage sans machine'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -912,7 +912,7 @@ Chez Nettoyage Canape à domicile, nous intervenons directement chez vous avec d
     category: 'détachage',
     isPillar: true,
     relatedArticles: ['tache-cafe-canape', 'tache-vin-canape', 'tache-urine-canape', 'tache-gras-canape', 'entretien-canape-guide-annuel', 'désinfecter-canape'],
-    relatedServices: ['détachage-canapé'],
+    relatedServices: ['détachage-canape'],
     keywords: ['détachage canapé', 'enlever tache canapé', 'tache canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -1154,7 +1154,7 @@ Le détachage reussi repose sur trois règles simples. Premierement, agissez dan
 
 Pour les taches qui résistent a ces méthodes ou les situations complexes, un nettoyage professionnel reste la solution la plus sûre. Nos techniciens interviennent à domicile avec le matériel adapté et garantissent un résultat sur les taches courantes.
 
-[Demander un devis détachage gratuit](/services/détachage-canapé)
+[Demander un devis détachage gratuit](/services/détachage-canape)
 
 ---
 
@@ -1178,7 +1178,7 @@ Pour les taches qui résistent a ces méthodes ou les situations complexes, un n
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['détachage-canapé'],
+    relatedServices: ['détachage-canape'],
     keywords: ['tache café canapé', 'enlever café canapé', 'café renversé canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -1508,9 +1508,9 @@ Récapitulatif :
 - **Savon glycériné** pour le cuir
 - **Alcool 70%** pour la microfibre code S
 
-Une tache résiste malgré ces techniques ? Nos techniciens interviennent sous 48h en Île-de-France avec du matériel professionnel (injection-extraction, détachants enzymatiques).
+Une tache résiste malgré ces techniques ? Nos techniciens interviennent sous 48h à Paris et en petite couronne avec du matériel professionnel (injection-extraction, détachants enzymatiques).
 
-[Urgence café ? Devis gratuit en 2h →](/services/détachage-canapé)
+[Urgence café ? Devis gratuit en 2h →](/services/détachage-canape)
 
 ---
 
@@ -1532,8 +1532,8 @@ Une tache résiste malgré ces techniques ? Nos techniciens interviennent sous 4
     image: '/images/blog/tache-vin-canape.jpg',
     category: 'détachage',
     isPillar: false,
-    relatedArticles: ['détachage-canape-guide', 'nettoyer-canape-tissu', 'entretien-canape-guide-annuel'],
-    relatedServices: ['détachage-canapé'],
+    relatedArticles: ['détachage-canape-guide', 'nettoyage-canape-tissu', 'entretien-canape-guide-annuel'],
+    relatedServices: ['détachage-canape'],
     keywords: ['tache vin canapé', 'enlever vin rouge', 'tache vin rouge tissu'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -1673,7 +1673,7 @@ La tache de vin rouge sur un canapé est un accident classique qui fait peur, ma
 
 Retenez les trois règles d'or : jamais d'eau chaude, jamais de frottement, toujours tester les produits sur une zone cachée. Et si malgré tous vos efforts la tache persiste, n'hésitez pas à faire appel à un professionnel. Nos techniciens disposent d'équipements et de produits spécifiques qui permettent de traiter même les cas les plus difficiles.
 
-[Tache de vin récalcitrante ? Intervention professionnelle sous 48h →](/services/détachage-canapé)
+[Tache de vin récalcitrante ? Intervention professionnelle sous 48h →](/services/détachage-canape)
 
 ---
 
@@ -1696,7 +1696,7 @@ Retenez les trois règles d'or : jamais d'eau chaude, jamais de frottement, touj
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'eliminer-odeurs-canape'],
-    relatedServices: ['détachage-canapé', 'désinfection-canapé'],
+    relatedServices: ['détachage-canape', 'désinfection-canape'],
     keywords: ['tache urine canapé', 'enlever pipi canapé', 'odeur urine canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -1850,7 +1850,7 @@ Retenez les principes essentiels : absorber avant tout, toujours utiliser de l'e
 
 Si malgré tous vos efforts l'odeur persiste, c'est le signe que l'urine a pénétré trop profondément pour être traitée en surface. Nos techniciens disposent d'équipements d'injection-extraction capables d'atteindre et de traiter le rembourrage en profondeur, éliminant définitivement la source du problème.
 
-[Odeur persistante malgré vos efforts ? Intervention professionnelle anti-odeurs →](/services/désinfection-canapé)
+[Odeur persistante malgré vos efforts ? Intervention professionnelle anti-odeurs →](/services/désinfection-canape)
 
 ---
 
@@ -1872,8 +1872,8 @@ Si malgré tous vos efforts l'odeur persiste, c'est le signe que l'urine a pén�
     image: '/images/blog/tache-gras-canape.jpg',
     category: 'détachage',
     isPillar: false,
-    relatedArticles: ['détachage-canape-guide', 'nettoyer-canape-tissu', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['détachage-canapé'],
+    relatedArticles: ['détachage-canape-guide', 'nettoyage-canape-tissu', 'guide-complet-nettoyer-canape'],
+    relatedServices: ['détachage-canape'],
     keywords: ['tache gras canapé', 'enlever huile canapé', 'tache grasse tissu'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -2027,7 +2027,7 @@ La terre de Sommières reste votre meilleure alliée pour la plupart des taches 
 
 Si malgré vos efforts une tache résiste ou si vous craignez d'aggraver la situation sur un tissu précieux, n'hésitez pas à faire appel à un professionnel. Nos techniciens disposent de produits et de techniques avancées qui permettent de traiter même les cas les plus difficiles sans risque pour votre canapé.
 
-[Tache de gras récalcitrante ? Détachage professionnel à domicile →](/services/détachage-canapé)
+[Tache de gras récalcitrante ? Détachage professionnel à domicile →](/services/détachage-canape)
 
 ---
 
@@ -2054,7 +2054,7 @@ Si malgré vos efforts une tache résiste ou si vous craignez d'aggraver la situ
     category: 'entretien',
     isPillar: true,
     relatedArticles: ['frequence-nettoyage-canape', 'désinfecter-canape', 'eliminer-odeurs-canape', 'entretien-canape-cuir-conseils'],
-    relatedServices: ['nettoyer-canape-tissu', 'nettoyage-canapé-cuir'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-cuir'],
     keywords: ['entretien canapé', 'calendrier entretien canapé', 'soin canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -2250,7 +2250,7 @@ Commencez par l'aspiration hebdomadaire. Integrez les autres gestes progressivem
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['entretien-canape-guide-annuel', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['nettoyer-canape-tissu'],
+    relatedServices: ['nettoyage-canape-tissu'],
     keywords: ['fréquence nettoyage canapé', 'quand nettoyer canapé', 'combien de fois nettoyer'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -2407,7 +2407,7 @@ N'hésitez pas à ajuster votre programme au fil du temps. Un nouveau bébé, l'
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['entretien-canape-guide-annuel', 'eliminer-odeurs-canape'],
-    relatedServices: ['désinfection-canapé'],
+    relatedServices: ['désinfection-canape'],
     keywords: ['désinfecter canapé', 'désinfection canapé', 'tuer bactéries canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -2555,7 +2555,7 @@ Intégrez la désinfection à votre routine d'entretien annuelle, et n'hésitez 
 
 Si une situation dépasse vos capacités ou si vous préférez confier cette tâche à des experts, nos techniciens interviennent à domicile avec du matériel professionnel pour une désinfection en profondeur de votre canapé.
 
-[Réserver une désinfection professionnelle →](/services/désinfection-canapé)
+[Réserver une désinfection professionnelle →](/services/désinfection-canape)
 
 ---
 
@@ -2578,7 +2578,7 @@ Si une situation dépasse vos capacités ou si vous préférez confier cette tâ
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['entretien-canape-guide-annuel', 'désinfecter-canape', 'tache-urine-canape'],
-    relatedServices: ['désinfection-canapé'],
+    relatedServices: ['désinfection-canape'],
     keywords: ['odeur canapé', 'éliminer odeur canapé', 'désodoriser canapé', 'mauvaise odeur canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -2740,7 +2740,7 @@ Les odeurs de canapé ne sont pas une fatalité. Dans la majorité des cas, le b
 
 La prévention reste votre meilleure arme. Un entretien régulier (aération quotidienne, aspiration hebdomadaire, bicarbonate mensuel) évite l'accumulation des odeurs et maintient votre canapé dans un état optimal. Si malgré vos efforts l'odeur persiste, n'hésitez pas à faire appel à un professionnel équipé de machines injection-extraction capables d'atteindre le rembourrage.
 
-[Réserver un traitement anti-odeurs professionnel →](/services/désinfection-canapé)
+[Réserver un traitement anti-odeurs professionnel →](/services/désinfection-canape)
 
 ---
 
@@ -2763,7 +2763,7 @@ La prévention reste votre meilleure arme. Un entretien régulier (aération quo
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['entretien-canape-guide-annuel', 'nettoyer-canape-cuir'],
-    relatedServices: ['nettoyage-canapé-cuir'],
+    relatedServices: ['nettoyage-canape-cuir'],
     keywords: ['entretien cuir', 'nourrir cuir canapé', 'soin cuir', 'entretien canapé cuir'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -2937,7 +2937,7 @@ Le choix des produits est crucial : investissez dans un savon glycériné de qua
 
 Si malgré un entretien régulier votre cuir montre des signes de fatigue (craquelures, décoloration, zones pelées), n'hésitez pas à faire appel à un professionnel. Une intervention précoce peut souvent sauver un cuir abîmé alors qu'attendre trop longtemps rend les dégâts irréversibles.
 
-[Entretien cuir professionnel à domicile →](/services/nettoyage-canapé-cuir)
+[Entretien cuir professionnel à domicile →](/services/nettoyage-canape-cuir)
 
 ---
 
@@ -2964,7 +2964,7 @@ Si malgré un entretien régulier votre cuir montre des signes de fatigue (craqu
     category: 'pratique',
     isPillar: true,
     relatedArticles: ['nettoyage-domicile-vs-pressing', 'guide-complet-nettoyer-canape', 'choisir-professionnel-nettoyage-canape'],
-    relatedServices: ['nettoyer-canape-tissu', 'nettoyage-canapé-cuir'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-cuir'],
     keywords: ['prix nettoyage canapé', 'tarif nettoyage canapé', 'coût nettoyage canapé', 'devis nettoyage canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -3145,7 +3145,7 @@ Nous proposons des devis gratuits et personnalisés pour vous permettre de conna
     category: 'pratique',
     isPillar: false,
     relatedArticles: ['prix-nettoyage-canape', 'guide-complet-nettoyer-canape', 'choisir-professionnel-nettoyage-canape'],
-    relatedServices: ['nettoyer-canape-tissu'],
+    relatedServices: ['nettoyage-canape-tissu'],
     keywords: ['nettoyage canapé domicile', 'pressing canapé', 'housse canapé pressing', 'nettoyer canapé pressing'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -3314,7 +3314,7 @@ Quelle que soit votre décision, l'important est de ne pas négliger l'entretien
     category: 'pratique',
     isPillar: false,
     relatedArticles: ['prix-nettoyage-canape', 'guide-complet-nettoyer-canape', 'nettoyage-canape-non-dehoussable', 'désinfecter-canape'],
-    relatedServices: ['nettoyer-canape-tissu'],
+    relatedServices: ['nettoyage-canape-tissu'],
     keywords: ['séchage canapé', 'temps séchage canapé', 'canapé mouillé', 'sécher canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -3529,7 +3529,7 @@ Pour optimiser le séchage, concentrez-vous sur la ventilation : ouvrez les fen�
     category: 'pratique',
     isPillar: false,
     relatedArticles: ['prix-nettoyage-canape', 'nettoyage-domicile-vs-pressing', 'guide-complet-nettoyer-canape', 'détachage-canape-guide'],
-    relatedServices: ['nettoyer-canape-tissu', 'nettoyage-canapé-cuir'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-cuir'],
     keywords: ['professionnel nettoyage canapé', 'choisir nettoyeur canapé', 'entreprise nettoyage canapé', 'certification nettoyage textile', 'garantie nettoyage canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -3624,7 +3624,7 @@ Un nettoyage professionnel de canapé a un coût. Matériel, produits, déplacem
 
 Soit le "professionnel" travaille au noir sans assurance. Soit il utilise du matériel et des produits bas de gamme. Soit il bâcle l'intervention. Dans tous les cas, vous êtes perdant.
 
-Selon les données du marché 2024, un nettoyage de canapé 3 places en Île-de-France coûte entre 70 et 100 euros. En dessous de 50 euros, posez-vous des questions.
+Selon les données du marché 2024, un nettoyage de canapé 3 places à Paris et petite couronne coûte entre 70 et 100 euros. En dessous de 50 euros, posez-vous des questions.
 
 ### Absence de devis écrit
 
@@ -3678,7 +3678,7 @@ L'absence de présence en ligne peut signifier une activité récente, un travai
 
 ## Fourchette de prix et prestations incluses
 
-### Grille tarifaire indicative 2025 (Île-de-France)
+### Grille tarifaire indicative 2025 (Paris & Petite Couronne)
 
 | Type de canapé | Prix moyen | Fourchette |
 |----------------|------------|------------|
@@ -3749,7 +3749,7 @@ Choisir le bon professionnel pour nettoyer votre canapé demande un peu de temps
 
 Gardez en tête une règle simple : un vrai professionnel n'a rien à cacher. Il répond à vos questions, fournit ses documents, explique sa méthode. Cette transparence constitue la meilleure garantie de qualité.
 
-Vous cherchez un prestataire de confiance en Île-de-France ? [Demandez votre devis gratuit](/contact) et jugez par vous-même de notre approche.
+Vous cherchez un prestataire de confiance à Paris ou en petite couronne ? [Demandez votre devis gratuit](/contact) et jugez par vous-même de notre approche.
 
 ---
 
@@ -3772,7 +3772,7 @@ Vous cherchez un prestataire de confiance en Île-de-France ? [Demandez votre de
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-suedine', 'nettoyer-canape-alcantara'],
-    relatedServices: ['nettoyage-canape-daim', 'renovation-daim'],
+    relatedServices: [],
     keywords: ['nettoyer canapé daim', 'nettoyage daim', 'entretien canapé daim', 'tache daim', 'brosse daim'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -3952,7 +3952,7 @@ Le daim demande une attention particulière mais récompense les soins par une b
 - Un brossage hebdomadaire maintient l'éclat et la souplesse
 - L'imperméabilisation préventive évite 90% des accidents
 
-Votre canapé en daim présente des taches tenaces ou des auréoles ? Notre équipe maîtrise les techniques professionnelles adaptées à ce matériau délicat. [Demandez un devis gratuit](/contact) pour une intervention à domicile en Île-de-France.
+Votre canapé en daim présente des taches tenaces ou des auréoles ? Notre équipe maîtrise les techniques professionnelles adaptées à ce matériau délicat. [Demandez un devis gratuit](/contact) pour une intervention à domicile à Paris et en petite couronne.
 
 ---
 
@@ -3977,7 +3977,7 @@ Votre canapé en daim présente des taches tenaces ou des auréoles ? Notre équ
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'tache-cafe-canape', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['détachage-canape', 'nettoyage-canape-domicile'],
+    relatedServices: ['détachage-canape', 'nettoyage-canape'],
     keywords: ['tache chocolat canapé', 'enlever chocolat canapé', 'nettoyer chocolat tissu', 'tache chocolat fondu'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -4127,7 +4127,7 @@ Besoin d'aide pour une tache tenace ? Consultez notre [guide complet du détacha
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'eliminer-odeurs-canape', 'désinfecter-canape'],
-    relatedServices: ['nettoyage-canape-urgence', 'désodorisation-canape'],
+    relatedServices: ['désinfection-canape'],
     keywords: ['vomi canapé', 'nettoyer vomi canapé', 'odeur vomi canapé', 'tache vomi'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -4324,7 +4324,7 @@ Un vomi sur canapé n'est pas une catastrophe si vous réagissez vite. Retirez l
 
 Pour les taches anciennes ou les odeurs persistantes malgré vos efforts, nos techniciens interviennent en urgence. L'extraction professionnelle atteint le rembourrage que les méthodes maison ne peuvent toucher.
 
-Besoin d'une intervention rapide ? [Contactez-nous pour un devis gratuit](/contact). Disponibilité sous 24 à 48 heures en Île-de-France.
+Besoin d'une intervention rapide ? [Contactez-nous pour un devis gratuit](/contact). Disponibilité sous 24 à 48 heures à Paris et petite couronne.
 
 ---
 
@@ -4350,7 +4350,7 @@ Besoin d'une intervention rapide ? [Contactez-nous pour un devis gratuit](/conta
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-cuir', 'entretien-canape-cuir-conseils'],
-    relatedServices: ['nettoyage-canape-simili', 'renovation-simili-cuir'],
+    relatedServices: [],
     keywords: ['nettoyer canapé simili cuir', 'entretien simili cuir', 'nettoyage canapé synthétique', 'tache simili cuir', 'simili cuir craquelé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -4530,7 +4530,7 @@ Votre canapé simili montre déjà des signes de fatigue ? Un nettoyage professi
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'tache-gras-canape', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['détachage-canape', 'nettoyage-canape-profondeur'],
+    relatedServices: ['détachage-canape', 'nettoyage-canape'],
     keywords: ['tache sébum canapé', 'accoudoir gras canapé', 'enlever sébum tissu', 'appui-tête jauni'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -4730,7 +4730,7 @@ Vos accoudoirs ont viré au gras malgré vos efforts ? [Demandez un détachage p
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'nettoyer-canape-cuir-blanc', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['détachage-canape', 'renovation-canape'],
+    relatedServices: ['détachage-canape'],
     keywords: ['tache encre canapé', 'enlever encre canapé', 'tache stylo canapé', 'tache feutre canapé', 'marqueur canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -4945,8 +4945,8 @@ Pour les taches rebelles ou les canapés de valeur, un [nettoyage professionnel]
     readingTime: '12 min',
     image: '/images/blog/shampouineuse-canape-guide.jpg',
     keywords: ['shampouineuse canapé', 'injection extraction canapé', 'nettoyer canapé shampouineuse', 'location shampouineuse', 'shampouineuse tissu'],
-    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyeur-vapeur-canape', 'nettoyer-canape-tissu'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyeur-vapeur-canape', 'nettoyage-canape-tissu'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     faq: [
       {
         question: 'Combien coûte une shampouineuse pour canapé ?',
@@ -5074,7 +5074,7 @@ Les deux options ont leurs avantages selon votre situation.
 
 ### Quand faire appel à un professionnel ?
 
-Un [nettoyage professionnel](/services/nettoyage-canape-domicile) s'impose pour les canapés de valeur, les tissus délicats ou les taches rebelles. Les techniciens adaptent produits et techniques au cas par cas.
+Un [nettoyage professionnel](/services/nettoyage-canape) s'impose pour les canapés de valeur, les tissus délicats ou les taches rebelles. Les techniciens adaptent produits et techniques au cas par cas.
 
 Les professionnels utilisent des machines industrielles avec une puissance d'aspiration 3 à 5 fois supérieure aux modèles grand public. Le résultat est plus uniforme et le séchage plus rapide.
 
@@ -5333,7 +5333,7 @@ Pour les canapés très sales ou les tissus délicats, nos [services de nettoyag
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['eliminer-odeurs-canape', 'tache-urine-canape', 'désinfecter-canape'],
-    relatedServices: ['nettoyage-canape-urine', 'désodorisation-canape'],
+    relatedServices: ['détachage-canape', 'désinfection-canape'],
     keywords: ['pipi chat canapé', 'urine chat canapé', 'odeur pipi chat', 'enlever urine chat', 'tache urine chat'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -5535,7 +5535,7 @@ Pour les taches anciennes ou les accidents répétés, le nettoyage professionne
     category: 'détachage',
     isPillar: false,
     relatedArticles: ['détachage-canape-guide', 'tache-urine-canape', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['détachage-canape', 'nettoyage-canape-urgence'],
+    relatedServices: ['détachage-canape'],
     keywords: ['tache sang canapé', 'enlever sang canapé', 'nettoyer sang tissu', 'sang séché canapé'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -5754,7 +5754,7 @@ Si malgré vos efforts la tache persiste, l'intervention professionnelle reste l
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-daim', 'nettoyer-canape-suedine'],
-    relatedServices: ['nettoyage-canape-alcantara', 'nettoyage-canape-microfibre'],
+    relatedServices: ['nettoyage-canape-microfibre', 'nettoyage-canape-microfibre'],
     keywords: ['nettoyer canapé alcantara', 'nettoyage alcantara', 'entretien alcantara canapé', 'tache alcantara', 'alcantara nettoyage'],
     publishedAt: '2025-01-15',
     updatedAt: '2025-01-15',
@@ -5946,7 +5946,7 @@ Laissez sécher naturellement. Si vous êtes pressé, utilisez un ventilateur à
 
 ---
 
-*Votre canapé Alcantara a besoin d'un nettoyage professionnel ? [Demandez un devis gratuit](/contact) pour une intervention experte à domicile en Île-de-France.*
+*Votre canapé Alcantara a besoin d'un nettoyage professionnel ? [Demandez un devis gratuit](/contact) pour une intervention experte à domicile à Paris et petite couronne.*
     `,
   },
   // ============================================
@@ -6193,13 +6193,13 @@ Oui, c'est un excellent nettoyant quotidien grâce à son pH neutre et ses agent
 
 ---
 
-*Votre canapé cuir blanc mérite un soin expert. [Contactez-nous](/contact) pour un devis gratuit et une intervention professionnelle en Île-de-France.*
+*Votre canapé cuir blanc mérite un soin expert. [Contactez-nous](/contact) pour un devis gratuit et une intervention professionnelle à Paris et petite couronne.*
     `,
     image: '/images/blog/nettoyer-canape-cuir-blanc.jpg',
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['nettoyer-canape-cuir', 'entretien-canape-cuir-conseils', 'tache-encre-canape'],
-    relatedServices: ['nettoyage-canape-cuir', 'renovation-cuir'],
+    relatedServices: ['nettoyage-canape-cuir', 'nettoyage-canape-cuir'],
     keywords: ['canapé cuir blanc', 'nettoyer cuir blanc', 'entretien cuir blanc', 'tache cuir blanc', 'jaunissement cuir', 'cuir blanc jauni'],
     faq: [
       { question: 'Comment éviter que mon canapé cuir blanc jaunisse ?', answer: 'Limitez l\'exposition au soleil direct avec des rideaux ou films UV. Nettoyez hebdomadairement pour éliminer le sébum avant qu\'il ne pénètre. Utilisez des produits sans silicone qui créent un film jaunissant avec le temps.' },
@@ -6495,13 +6495,13 @@ Râpez 30g de savon de Marseille authentique (72% huile). Dissolvez dans 1L d'ea
 
 ---
 
-*Besoin d'un nettoyage professionnel respectueux de l'environnement ? [Contactez-nous](/contact) pour une intervention avec des produits naturels en Île-de-France.*
+*Besoin d'un nettoyage professionnel respectueux de l'environnement ? [Contactez-nous](/contact) pour une intervention avec des produits naturels à Paris et petite couronne.*
     `,
     image: '/images/blog/recettes-grand-mere-canape.jpg',
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['eliminer-odeurs-canape', 'tache-gras-canape', 'désinfecter-canape'],
-    relatedServices: ['nettoyage-canape-naturel', 'nettoyage-canape-domicile'],
+    relatedServices: ['nettoyage-canape', 'nettoyage-canape'],
     keywords: ['recette grand-mère canapé', 'bicarbonate canapé', 'vinaigre blanc canapé', 'savon Marseille canapé', 'nettoyer canapé naturel', 'astuces nettoyage canapé'],
     faq: [
       { question: 'Le bicarbonate peut-il abîmer mon canapé ?', answer: 'Le bicarbonate est doux (pH 8,4) et sans danger pour la plupart des textiles. Évitez-le sur le cuir car il peut assécher, et sur la soie qui préfère les pH neutres.' },
@@ -6702,7 +6702,7 @@ Pas nécessairement. Un nettoyage professionnel suivi d'un entretien régulier p
 
 ---
 
-*Allergique aux acariens ? [Contactez-nous](/contact) pour un traitement professionnel anti-acariens de votre canapé en Île-de-France.*
+*Allergique aux acariens ? [Contactez-nous](/contact) pour un traitement professionnel anti-acariens de votre canapé à Paris et petite couronne.*
     `,
     image: '/images/blog/acariens-canape.jpg',
     category: 'entretien',
@@ -6908,13 +6908,13 @@ Avec un entretien adapté, 8-12 ans. Sans entretien, les zones d'assise se lustr
 
 ---
 
-*Votre canapé suédine a besoin d'un rafraîchissement professionnel ? [Contactez-nous](/contact) pour un nettoyage expert en Île-de-France.*
+*Votre canapé suédine a besoin d'un rafraîchissement professionnel ? [Contactez-nous](/contact) pour un nettoyage expert à Paris et petite couronne.*
     `,
     image: '/images/blog/nettoyer-canape-suedine.jpg',
     category: 'nettoyage',
     isPillar: false,
     relatedArticles: ['nettoyer-canape-daim', 'nettoyer-canape-alcantara', 'nettoyage-canape-velours'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['canapé suédine', 'nettoyer suédine', 'entretien suédine', 'tache suédine', 'microsuède canapé'],
     faq: [
       { question: 'La suédine supporte-t-elle le nettoyage vapeur ?', answer: 'Oui, mais à distance. Utilisez un défroisseur à 10-15 cm du tissu, puis brossez immédiatement.' },
@@ -7079,7 +7079,7 @@ Brossez dans le sens du poil après séchage pour redonner du gonflant.
 
 Ni eau ni solvant classiques. Utilisez un lait nettoyant spécifique cuir ou un savon glycériné. Nourrissez ensuite avec une crème hydratante cuir.
 
-Pour un guide complet, consultez notre article [nettoyer un canapé en tissu](/blog/guides/nettoyer-canape-tissu).
+Pour un guide complet, consultez notre article [nettoyer un canapé en tissu](/blog/guides/nettoyage-canape-tissu).
 
 ## Où acheter et à quel prix
 
@@ -7146,8 +7146,8 @@ Les bons produits non. Mais testez toujours sur une zone cachée (arrière du do
     image: '/images/blog/produit-nettoyage-canape-comparatif.jpg',
     category: 'entretien',
     isPillar: false,
-    relatedArticles: ['nettoyer-canape-tissu', 'recettes-grand-mere-canape', 'guide-complet-nettoyer-canape'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedArticles: ['nettoyage-canape-tissu', 'recettes-grand-mere-canape', 'guide-complet-nettoyer-canape'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['produit nettoyage canapé', 'nettoyant canapé tissu', 'meilleur produit canapé', 'spray nettoyant canapé'],
     faq: [
       { question: 'Quel est le meilleur produit pour nettoyer un canapé en tissu ?', answer: 'Starwax Nettoyant Textile offre le meilleur rapport qualité-prix pour les canapés code W. Pour code S, K2R Détachant Sec reste la référence.' },
@@ -7193,7 +7193,7 @@ D'après le CTTN-IREN (Centre Technique de la Teinture et du Nettoyage), les sol
 
 Le nettoyage vapeur utilise de l'eau sous forme gazeuse à haute température. Bien qu'efficace pour la désinfection, il introduit de l'humidité dans les fibres.
 
-Pour un [canapé non déhoussable](/blog/guides/nettoyer-canape-non-dehoussable), le nettoyage à sec évite ce risque.
+Pour un [canapé non déhoussable](/blog/guides/nettoyage-canape-non-dehoussable), le nettoyage à sec évite ce risque.
 
 ## Quand privilégier le nettoyage à sec
 
@@ -7326,8 +7326,8 @@ Le nettoyage vapeur utilise de l'eau chauffée à plus de 100 degrés. Le nettoy
     image: '/images/blog/nettoyage-sec-canape.jpg',
     category: 'entretien',
     isPillar: false,
-    relatedArticles: ['nettoyer-canape-non-dehoussable', 'nettoyer-canape-velours', 'produit-nettoyage-canape-comparatif'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedArticles: ['nettoyage-canape-non-dehoussable', 'nettoyage-canape-velours', 'produit-nettoyage-canape-comparatif'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['nettoyage à sec canapé', 'nettoyer canapé sans eau', 'nettoyage canapé à sec', 'canapé non déhoussable nettoyage'],
     faq: [
       { question: 'Peut-on vraiment nettoyer un canapé sans eau ?', answer: 'Oui, les solvants ou poudres absorbantes dissolvent les salissures sans mouiller les fibres.' },
@@ -7483,7 +7483,7 @@ Les sprays du commerce sont formulés pour être sans danger. Cependant, certain
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['eliminer-odeurs-canape', 'pipi-chat-canape', 'recettes-grand-mere-canape'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['désodorisant canapé', 'enlever odeur canapé', 'spray désodorisant canapé', 'désodoriser canapé tissu'],
     faq: [
       { question: 'Quel est le meilleur désodorisant pour canapé ?', answer: 'Le bicarbonate de soude pour l\'usage quotidien, les sprays enzymatiques pour les odeurs tenaces.' },
@@ -7673,7 +7673,7 @@ Absorbez l'humidité avec des serviettes. Saupoudrez immédiatement de bicarbona
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['pipi-chat-canape', 'nettoyer-vomi-canape', 'eliminer-odeurs-canape', 'acariens-canape'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['nettoyer canapé animaux', 'nettoyer canapé chien', 'nettoyer canapé chat', 'poils animaux canapé'],
     faq: [
       { question: 'Comment enlever les poils de chien incrustés ?', answer: 'Combinez aspirateur avec brosse rotative, gant en caoutchouc humidifié, puis rouleau adhésif. Répétez chaque semaine.' },
@@ -7843,7 +7843,7 @@ Pour une protection polyvalente, les formules fluorées nouvelle génération do
     category: 'entretien',
     isPillar: false,
     relatedArticles: ['guide-complet-nettoyer-canape', 'produit-nettoyage-canape-comparatif', 'frequence-nettoyage-canape'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['protection canapé', 'imperméabilisant canapé', 'protéger canapé tissu', 'protection canapé après nettoyage'],
     faq: [
       { question: 'Combien de temps dure un imperméabilisant ?', answer: 'De 6 mois (silicones) à 3 ans (professionnels). Réapplication annuelle recommandée.' },
@@ -7990,7 +7990,7 @@ La poussière, les miettes et les poils d'animaux se mélangent à l'eau. Ce mé
 - Retournez le canapé pour aspirer le dessous
 - Battez les coussins dehors si possible
 
-Cette étape de 10 minutes double l'efficacité de votre nettoyage. Consultez notre article sur le [nettoyage tissu](/blog/nettoyer-canape-tissu) pour la suite.
+Cette étape de 10 minutes double l'efficacité de votre nettoyage. Consultez notre article sur le [nettoyage tissu](/blog/guides/nettoyage-canape-tissu) pour la suite.
 
 ---
 
@@ -8057,8 +8057,8 @@ Exposez le canapé au soleil (1 heure maximum). Saupoudrez de bicarbonate, laiss
     image: '/images/blog/erreurs-nettoyage-canape-eviter.jpg',
     category: 'entretien',
     isPillar: false,
-    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyer-canape-tissu', 'produit-nettoyage-canape-comparatif'],
-    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape-domicile'],
+    relatedArticles: ['guide-complet-nettoyer-canape', 'nettoyage-canape-tissu', 'produit-nettoyage-canape-comparatif'],
+    relatedServices: ['nettoyage-canape-tissu', 'nettoyage-canape'],
     keywords: ['erreurs nettoyage canapé', 'ne pas faire nettoyage canapé', 'erreurs détachage canapé', 'abîmer canapé nettoyage'],
     faq: [
       { question: 'Comment savoir si j\'ai abîmé mon canapé ?', answer: 'Les signes révélateurs : texture différente au toucher (plus rêche ou plus raide), couleur modifiée, auréoles visibles en lumière rasante, odeur persistante de moisi. Passez la main sur le tissu : si vous sentez des zones plus dures ou pelucheuses, le dommage est confirmé.' },
@@ -8119,7 +8119,7 @@ Testez une zone cachée. Avant d'appliquer un produit, vérifiez la réaction du
 
 ## Techniques de nettoyage efficaces avant départ
 
-Votre canapé nécessite un [nettoyage adapté au tissu](/blog/nettoyer-canape-tissu). Voici les méthodes qui fonctionnent.
+Votre canapé nécessite un [nettoyage adapté au tissu](/blog/guides/nettoyage-canape-tissu). Voici les méthodes qui fonctionnent.
 
 **Aspirateur en profondeur** : Passez l'aspirateur avec l'embout brosse sur toute la surface. Insistez dans les plis et sous les coussins. Cette étape élimine 70% des particules incrustées.
 
@@ -8189,8 +8189,8 @@ En dernier recours, la Commission Départementale de Conciliation (gratuite) peu
     image: '/images/blog/nettoyer-canape-location.jpg',
     category: 'pratique',
     isPillar: false,
-    relatedArticles: ['guide-complet-nettoyer-canape', 'prix-nettoyage-canape', 'nettoyer-canape-tissu'],
-    relatedServices: ['nettoyage-canape-domicile', 'nettoyage-canape-tissu'],
+    relatedArticles: ['guide-complet-nettoyer-canape', 'prix-nettoyage-canape', 'nettoyage-canape-tissu'],
+    relatedServices: ['nettoyage-canape', 'nettoyage-canape-tissu'],
     keywords: ['nettoyer canapé location', 'état des lieux canapé', 'canapé taché caution', 'nettoyage canapé locataire'],
     faq: [
       { question: 'Le propriétaire peut-il retenir la caution pour un canapé taché ?', answer: 'Oui, mais seulement si la tache constitue une dégradation et non une usure normale. La retenue doit être justifiée par des devis ou factures. Selon l\'ANIL, le propriétaire dispose de 2 mois après l\'état des lieux pour restituer la caution.' },

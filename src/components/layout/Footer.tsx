@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-xs">
-              {company.tagline}. Intervention rapide dans un rayon de {company.serviceArea.radius} autour de {company.serviceArea.headquarters}.
+              {company.tagline}. Intervention à domicile à Paris et en petite couronne (75, 92, 93, 94).
             </p>
             {/* NAP - Name, Address, Phone */}
             <address className="not-italic text-sm text-white/80 space-y-2">

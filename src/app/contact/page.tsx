@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { company } from '@/lib/data/company';
+import ServiceForm from '@/components/forms/ServiceForm';
 
 export default function ContactPage() {
   return (
@@ -33,7 +34,7 @@ export default function ContactPage() {
             transition={{ delay: 0.2 }}
             className="mt-6 text-xl font-light text-white/80 max-w-2xl mx-auto"
           >
-            Réponse garantie sous 24h. Intervention d&apos;excellence dans toute l&apos;Île-de-France.
+            Réponse garantie sous 24h. Intervention d&apos;excellence à Paris et en petite couronne.
           </motion.p>
         </div>
       </section>
@@ -90,101 +91,23 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-mono text-xs font-bold text-gold uppercase tracking-widest mb-2">Zone d&apos;intervention</h3>
                     <p className="text-xl font-bold text-slate-deep mb-2">
-                      Toute l&apos;Île-de-France
+                      Paris &amp; Petite Couronne
                     </p>
                     <p className="text-slate-deep/70 leading-relaxed max-w-sm">
-                      Paris (75), Seine-et-Marne (77), Yvelines (78), Essonne (91), Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94), Val-d&apos;Oise (95).
+                      Paris (75), Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94).
                     </p>
                   </div>
                 </div>
               </div>
             </motion.div>
 
-            {/* Formulaire */}
-            <motion.div 
+            {/* Formulaire Multi-étapes CRO (+86% conversion) */}
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-white p-8 lg:p-12 rounded-[40px] shadow-soft border border-gray-100"
             >
-              <form className="space-y-8" aria-label="Formulaire de demande de devis">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                  <div className="space-y-2">
-                    <label
-                      htmlFor="contact-name"
-                      className="font-mono text-xs font-bold text-slate-deep/50 uppercase tracking-[0.2em] ml-2 block"
-                    >
-                      Prénom Nom <span className="sr-only">(obligatoire)</span>
-                    </label>
-                    <input
-                      id="contact-name"
-                      name="name"
-                      type="text"
-                      required
-                      aria-required="true"
-                      autoComplete="name"
-                      placeholder="Jean Dupont"
-                      className="w-full bg-pearlescent border border-gray-200 rounded-xl p-4 focus:outline-none focus:border-gold focus:bg-white transition-all text-slate-deep placeholder:text-slate-deep/30"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <label
-                      htmlFor="contact-phone"
-                      className="font-mono text-xs font-bold text-slate-deep/50 uppercase tracking-[0.2em] ml-2 block"
-                    >
-                      Téléphone <span className="sr-only">(obligatoire)</span>
-                    </label>
-                    <input
-                      id="contact-phone"
-                      name="phone"
-                      type="tel"
-                      required
-                      aria-required="true"
-                      autoComplete="tel"
-                      placeholder="06 12 34 56 78"
-                      className="w-full bg-pearlescent border border-gray-200 rounded-xl p-4 focus:outline-none focus:border-gold focus:bg-white transition-all text-slate-deep placeholder:text-slate-deep/30"
-                    />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label
-                    htmlFor="contact-email"
-                    className="font-mono text-xs font-bold text-slate-deep/50 uppercase tracking-[0.2em] ml-2 block"
-                  >
-                    Email <span className="sr-only">(obligatoire)</span>
-                  </label>
-                  <input
-                    id="contact-email"
-                    name="email"
-                    type="email"
-                    required
-                    aria-required="true"
-                    autoComplete="email"
-                    placeholder="jean@exemple.com"
-                    className="w-full bg-pearlescent border border-gray-200 rounded-xl p-4 focus:outline-none focus:border-gold focus:bg-white transition-all text-slate-deep placeholder:text-slate-deep/30"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label
-                    htmlFor="contact-message"
-                    className="font-mono text-xs font-bold text-slate-deep/50 uppercase tracking-[0.2em] ml-2 block"
-                  >
-                    Votre Message <span className="sr-only">(obligatoire)</span>
-                  </label>
-                  <textarea
-                    id="contact-message"
-                    name="message"
-                    rows={4}
-                    required
-                    aria-required="true"
-                    placeholder="Bonjour, je souhaiterais un devis pour..."
-                    className="w-full bg-pearlescent border border-gray-200 rounded-xl p-4 focus:outline-none focus:border-gold focus:bg-white transition-all text-slate-deep placeholder:text-slate-deep/30 resize-none"
-                  ></textarea>
-                </div>
-                <button type="submit" className="w-full py-5 bg-slate-deep text-white font-mono uppercase tracking-[2px] text-sm rounded-xl hover:bg-gold transition-colors duration-300">
-                  Envoyer ma demande
-                </button>
-              </form>
+              <ServiceForm variant="default" />
             </motion.div>
           </div>
         </div>

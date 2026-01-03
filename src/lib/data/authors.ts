@@ -20,7 +20,7 @@ export const authors: Author[] = [
     id: "marc-durand",
     name: "Marc Durand",
     role: "Fondateur & Expert Nettoyage Textile",
-    bio: "Fort de 15 ans d'expérience dans le nettoyage professionnel de textiles d'ameublement, Marc a fondé Nettoyage Canapé à Domicile avec une vision claire : offrir un service d'excellence accessible à tous les foyers d'Île-de-France. Formé aux techniques les plus avancées et certifié par l'INHNI (Institut National de l'Hygiène et du Nettoyage Industriel), il supervise personnellement chaque intervention et forme notre équipe aux meilleures pratiques du secteur.",
+    bio: "Fort de 15 ans d'expérience dans le nettoyage professionnel de textiles d'ameublement, Marc a fondé Nettoyage Canapé à Domicile avec une vision claire : offrir un service d'excellence accessible à tous les foyers de Paris et petite couronne. Formé aux techniques les plus avancées et certifié par l'INHNI (Institut National de l'Hygiène et du Nettoyage Industriel), il supervise personnellement chaque intervention et forme notre équipe aux meilleures pratiques du secteur.",
     shortBio: "Fondateur avec 15 ans d'expérience en nettoyage textile professionnel.",
     credentials: [
       "Certification INHNI Niveau 3 - Nettoyage Textile",

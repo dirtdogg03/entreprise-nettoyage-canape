@@ -4,7 +4,7 @@ import { company } from '@/lib/data/company';
 
 export const metadata: Metadata = {
   title: `À Propos | ${company.name}`,
-  description: `Découvrez ${company.name}, votre expert du nettoyage de canapés à domicile en Île-de-France. Notre équipe intervient dans un rayon de ${company.serviceArea.radius} autour de ${company.serviceArea.headquarters}.`,
+  description: `Découvrez ${company.name}, votre expert du nettoyage de canapés à domicile à Paris et petite couronne. Notre équipe intervient dans un rayon de ${company.serviceArea.radius} autour de ${company.serviceArea.headquarters}.`,
 };
 
 export default function AProposPage() {
@@ -118,12 +118,6 @@ export default function AProposPage() {
                     {dept}
                   </li>
                 ))}
-                <li className="flex items-center gap-3 text-slate-deep/80">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-gold flex-shrink-0">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                  </svg>
-                  Hauts-de-Seine (92)
-                </li>
               </ul>
               <div className="mt-8">
                 <Link

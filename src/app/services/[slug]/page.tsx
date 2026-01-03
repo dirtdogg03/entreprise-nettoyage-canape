@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 
   return {
     title: `${service.name} à Domicile${seoDefaults.titleSuffix}`,
-    description: `${service.description} Intervention à domicile en Île-de-France. ${service.priceRange}. Devis gratuit.`,
+    description: `${service.description} Intervention à domicile à Paris et petite couronne (75, 92, 93, 94). ${service.priceRange}. Devis gratuit.`,
     keywords: service.keywords,
   };
 }
@@ -175,7 +175,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
               <h3 className="text-2xl font-bold mb-4">Besoin d&apos;un {service.name.toLowerCase()} ?</h3>
               <p className="text-slate-deep/70 mb-6">
                 Contactez-nous pour obtenir un devis gratuit et personnalisé. Intervention rapide à domicile
-                en Seine-Saint-Denis, Paris et Val-de-Marne.
+                à Paris et en petite couronne (75, 92, 93, 94).
               </p>
               <div className="space-y-4">
                 <a

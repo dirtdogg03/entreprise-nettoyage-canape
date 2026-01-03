@@ -189,7 +189,7 @@ export const defaultCleaningFAQs: FAQItem[] = [
   },
   {
     question: 'Intervenez-vous à domicile ?',
-    answer: 'Oui, nous intervenons directement chez vous, partout en Île-de-France. Pas besoin de déplacer votre canapé, nous apportons tout le matériel nécessaire.',
+    answer: 'Oui, nous intervenons directement chez vous à Paris et en petite couronne (75, 92, 93, 94). Pas besoin de déplacer votre canapé, nous apportons tout le matériel nécessaire.',
   },
   {
     question: 'Proposez-vous une garantie ?',

@@ -83,7 +83,7 @@ export interface CompanyInfo {
 export const company: CompanyInfo = {
   name: "Nettoyage Canapé à Domicile",
   shortName: "Nettoyage Canapé",
-  tagline: "Experts du nettoyage de canapés à domicile en Île-de-France",
+  tagline: "Experts du nettoyage de canapés à domicile à Paris et petite couronne",
   description: "Service professionnel de nettoyage de canapés, fauteuils et sièges à domicile. Intervention rapide dans un rayon de 25km autour de Romainville. Tissu, cuir, microfibre, velours - nous traitons tous les types de revêtements.",
   domain: "nettoyage-canape-a-domicile.fr",
   phone: "01 84 80 45 67", // TODO: Remplacer par le numéro réel
@@ -153,8 +153,8 @@ export const company: CompanyInfo = {
 export const seoDefaults = {
   siteName: "Nettoyage Canapé à Domicile",
   titleSuffix: " | Nettoyage Canapé à Domicile",
-  defaultTitle: "Nettoyage de Canapé à Domicile en Île-de-France | Expert Tissu, Cuir, Microfibre",
-  defaultDescription: "Service professionnel de nettoyage de canapés à domicile. Intervention rapide en Seine-Saint-Denis, Paris et Val-de-Marne. Devis gratuit. Tissu, cuir, velours, microfibre.",
+  defaultTitle: "Nettoyage de Canapé à Domicile Paris & Petite Couronne | Expert Tissu, Cuir, Microfibre",
+  defaultDescription: "Service professionnel de nettoyage de canapés à domicile. Intervention rapide à Paris et en petite couronne (75, 92, 93, 94). Devis gratuit. Tissu, cuir, velours, microfibre.",
   keywords: [
     "nettoyage canapé à domicile",
     "nettoyage canapé tissu",

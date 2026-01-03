@@ -4,7 +4,7 @@ import { company, seoDefaults } from '@/lib/data/company';
 export const metadata: Metadata = {
   title: `Contact & Devis Gratuit${seoDefaults.titleSuffix}`,
   description:
-    'Contactez notre équipe pour un devis gratuit de nettoyage de canapé à domicile. Réponse sous 24h. Intervention en Île-de-France : Paris, Seine-Saint-Denis, Val-de-Marne.',
+    'Contactez notre équipe pour un devis gratuit de nettoyage de canapé à domicile. Réponse sous 24h. Intervention à Paris et petite couronne : Paris (75), Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94).',
   keywords: [
     'devis nettoyage canapé',
     'contact nettoyage canapé',

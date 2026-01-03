@@ -468,7 +468,7 @@ Votre canapé en tissu peut traverser les années sans perdre son éclat. Trois 
 
 Les erreurs fatales ? Eau sur code S, trop d'humidité sur code W, frotter au lieu de tamponner, et laisser sécher dans une pièce fermée.
 
-**Prêt à confier votre canapé à des mains expertes ?** Notre équipe intervient à domicile en Île-de-France avec du matériel professionnel (injection-extraction de grade industriel). Séchage en 2h garanti. Résultat visible immédiatement.
+**Prêt à confier votre canapé à des mains expertes ?** Notre équipe intervient à domicile à Paris et en petite couronne avec du matériel professionnel (injection-extraction de grade industriel). Séchage en 2h garanti. Résultat visible immédiatement.
 
 [Demandez votre devis gratuit](/contact) ou découvrez notre [service nettoyage canapé tissu](/services/nettoyage-canape-tissu).
 

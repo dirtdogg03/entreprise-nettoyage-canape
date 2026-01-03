@@ -154,7 +154,7 @@ export const locations: Location[] = [
     departmentCode: "93",
     postalCode: "93250",
     population: 30000,
-    nearbyLocations: ["rosny-sous-bois", "bondy", "neuilly-sur-marne", "gagny"],
+    nearbyLocations: ["rosny-sous-bois", "bondy"],
     localInfo: {
       description: "Intervention à Villemomble pour le nettoyage de vos canapés et mobilier textile.",
     },
@@ -220,7 +220,7 @@ export const locations: Location[] = [
     departmentCode: "94",
     postalCode: "94160",
     population: 23000,
-    nearbyLocations: ["vincennes", "charenton-le-pont", "paris-12", "montreuil"],
+    nearbyLocations: ["vincennes", "charenton-le-pont", "montreuil"],
     localInfo: {
       description: "Intervention nettoyage canapé à Saint-Mandé, aux portes du Bois de Vincennes.",
       landmarks: ["Bois de Vincennes", "Lac Daumesnil"],
@@ -246,7 +246,7 @@ export const locations: Location[] = [
     departmentCode: "94",
     postalCode: "94200",
     population: 62000,
-    nearbyLocations: ["charenton-le-pont", "vitry-sur-seine", "paris-13", "alfortville"],
+    nearbyLocations: ["charenton-le-pont", "vitry-sur-seine", "alfortville"],
     localInfo: {
       description: "Nettoyage professionnel de canapés à Ivry-sur-Seine, ville créative aux portes de Paris.",
       landmarks: ["Manufacture des Œillets", "Quais de Seine"],
@@ -259,7 +259,7 @@ export const locations: Location[] = [
     departmentCode: "94",
     postalCode: "94400",
     population: 95000,
-    nearbyLocations: ["ivry-sur-seine", "choisy-le-roi", "thiais", "alfortville"],
+    nearbyLocations: ["ivry-sur-seine", "alfortville"],
     localInfo: {
       description: "Intervention nettoyage canapé à Vitry-sur-Seine, plus grande ville du Val-de-Marne.",
       landmarks: ["MAC VAL", "Port à l'Anglais"],
@@ -298,7 +298,7 @@ export const locations: Location[] = [
     departmentCode: "94",
     postalCode: "94000",
     population: 92000,
-    nearbyLocations: ["maisons-alfort", "saint-maur-des-fosses", "bonneuil-sur-marne", "alfortville"],
+    nearbyLocations: ["maisons-alfort", "saint-maur-des-fosses", "alfortville"],
     localInfo: {
       description: "Nettoyage professionnel de canapés à Créteil, préfecture du Val-de-Marne.",
       landmarks: ["Lac de Créteil", "Cathédrale Notre-Dame", "Préfecture"],
@@ -350,7 +350,7 @@ export const locations: Location[] = [
     departmentCode: "94",
     postalCode: "94360",
     population: 17000,
-    nearbyLocations: ["champigny-sur-marne", "le-perreux-sur-marne", "nogent-sur-marne", "villiers-sur-marne"],
+    nearbyLocations: ["champigny-sur-marne", "le-perreux-sur-marne", "nogent-sur-marne"],
     localInfo: {
       description: "Nettoyage de canapés à Bry-sur-Marne, village résidentiel aux portes de Marne-la-Vallée.",
       landmarks: ["Église Saint-Gervais", "Château de Bry"],
@@ -363,7 +363,7 @@ export const locations: Location[] = [
     departmentCode: "94",
     postalCode: "94170",
     population: 34000,
-    nearbyLocations: ["nogent-sur-marne", "bry-sur-marne", "neuilly-plaisance", "fontenay-sous-bois"],
+    nearbyLocations: ["nogent-sur-marne", "bry-sur-marne", "fontenay-sous-bois"],
     localInfo: {
       description: "Intervention nettoyage canapé au Perreux-sur-Marne, ville paisible au bord de l'eau.",
       landmarks: ["Bords de Marne", "Pont du Perreux", "Centre-ville"],
@@ -377,7 +377,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92100",
     population: 120000,
-    nearbyLocations: ["issy-les-moulineaux", "saint-cloud", "sevres", "paris-16"],
+    nearbyLocations: ["issy-les-moulineaux", "saint-cloud"],
     localInfo: {
       description: "Nettoyage professionnel de canapés à Boulogne-Billancourt, plus grande ville des Hauts-de-Seine.",
       landmarks: ["Île Seguin", "Musée Albert-Kahn", "Parc de Billancourt"],
@@ -390,7 +390,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92130",
     population: 69000,
-    nearbyLocations: ["boulogne-billancourt", "vanves", "malakoff", "paris-15"],
+    nearbyLocations: ["boulogne-billancourt", "vanves", "malakoff"],
     localInfo: {
       description: "Intervention nettoyage canapé à Issy-les-Moulineaux, ville dynamique aux portes de Paris.",
       landmarks: ["Île Saint-Germain", "Fort d'Issy", "Héliport"],
@@ -403,7 +403,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92120",
     population: 50000,
-    nearbyLocations: ["malakoff", "vanves", "chatillon", "paris-14"],
+    nearbyLocations: ["malakoff", "vanves"],
     localInfo: {
       description: "Nettoyage de canapés à Montrouge, ville résidentielle au sud de Paris.",
       landmarks: ["Beffroi de Montrouge", "Cimetière de Montrouge"],
@@ -416,7 +416,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92240",
     population: 31000,
-    nearbyLocations: ["montrouge", "vanves", "chatillon", "paris-14"],
+    nearbyLocations: ["montrouge", "vanves"],
     localInfo: {
       description: "Intervention nettoyage canapé à Malakoff, commune populaire au sud de Paris.",
       landmarks: ["Théâtre 71", "Maison des Arts"],
@@ -429,7 +429,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92170",
     population: 28000,
-    nearbyLocations: ["issy-les-moulineaux", "malakoff", "chatillon", "paris-15"],
+    nearbyLocations: ["issy-les-moulineaux", "malakoff"],
     localInfo: {
       description: "Nettoyage de canapés à Vanves, petite ville familiale aux portes de Paris.",
       landmarks: ["Parc Frédéric Pic", "Lycée Michelet"],
@@ -442,7 +442,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92110",
     population: 63000,
-    nearbyLocations: ["levallois-perret", "asnieres-sur-seine", "saint-ouen", "paris-17"],
+    nearbyLocations: ["levallois-perret", "asnieres-sur-seine"],
     localInfo: {
       description: "Nettoyage professionnel de canapés à Clichy, ville dynamique au nord-ouest de Paris.",
       landmarks: ["Pavillon Vendôme", "Parc Roger Salengro"],
@@ -455,7 +455,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92300",
     population: 65000,
-    nearbyLocations: ["clichy", "neuilly-sur-seine", "courbevoie", "paris-17"],
+    nearbyLocations: ["clichy", "neuilly-sur-seine", "courbevoie"],
     localInfo: {
       description: "Intervention nettoyage canapé à Levallois-Perret, ville la plus dense de France.",
       landmarks: ["Hôtel de Ville", "Parc de la Planchette"],
@@ -468,7 +468,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92200",
     population: 60000,
-    nearbyLocations: ["levallois-perret", "courbevoie", "puteaux", "paris-16"],
+    nearbyLocations: ["levallois-perret", "courbevoie", "puteaux"],
     localInfo: {
       description: "Nettoyage de canapés haut de gamme à Neuilly-sur-Seine, ville résidentielle prestigieuse.",
       landmarks: ["Bois de Boulogne", "Île de la Jatte", "Avenue Charles de Gaulle"],
@@ -481,7 +481,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92400",
     population: 82000,
-    nearbyLocations: ["neuilly-sur-seine", "levallois-perret", "puteaux", "la-garenne-colombes"],
+    nearbyLocations: ["neuilly-sur-seine", "levallois-perret", "puteaux"],
     localInfo: {
       description: "Nettoyage professionnel de canapés à Courbevoie, aux pieds de La Défense.",
       landmarks: ["La Défense", "Parc de Bécon", "Gare de Bécon-les-Bruyères"],
@@ -507,7 +507,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92150",
     population: 49000,
-    nearbyLocations: ["puteaux", "nanterre", "saint-cloud", "rueil-malmaison"],
+    nearbyLocations: ["puteaux", "nanterre", "saint-cloud"],
     localInfo: {
       description: "Nettoyage de canapés à Suresnes, ville sur les coteaux avec vue sur Paris.",
       landmarks: ["Mont Valérien", "Vignes de Suresnes", "Bords de Seine"],
@@ -520,7 +520,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92000",
     population: 96000,
-    nearbyLocations: ["puteaux", "suresnes", "rueil-malmaison", "colombes"],
+    nearbyLocations: ["puteaux", "suresnes", "colombes"],
     localInfo: {
       description: "Nettoyage professionnel de canapés à Nanterre, préfecture des Hauts-de-Seine.",
       landmarks: ["Préfecture", "Université Paris-Nanterre", "Parc André Malraux"],
@@ -533,7 +533,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92700",
     population: 86000,
-    nearbyLocations: ["nanterre", "asnieres-sur-seine", "bois-colombes", "la-garenne-colombes"],
+    nearbyLocations: ["nanterre", "asnieres-sur-seine"],
     localInfo: {
       description: "Intervention nettoyage canapé à Colombes, grande ville familiale des Hauts-de-Seine.",
       landmarks: ["Stade Yves-du-Manoir", "Coulée Verte", "Gare de Colombes"],
@@ -546,7 +546,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92600",
     population: 87000,
-    nearbyLocations: ["clichy", "colombes", "gennevilliers", "bois-colombes"],
+    nearbyLocations: ["clichy", "colombes"],
     localInfo: {
       description: "Nettoyage de canapés à Asnières-sur-Seine, ville résidentielle au bord de Seine.",
       landmarks: ["Château d'Asnières", "Cimetière des Chiens", "Bords de Seine"],
@@ -559,7 +559,7 @@ export const locations: Location[] = [
     departmentCode: "92",
     postalCode: "92210",
     population: 30000,
-    nearbyLocations: ["boulogne-billancourt", "suresnes", "sevres", "garches"],
+    nearbyLocations: ["boulogne-billancourt", "suresnes"],
     localInfo: {
       description: "Nettoyage de canapés haut de gamme à Saint-Cloud, ville résidentielle prestigieuse.",
       landmarks: ["Parc de Saint-Cloud", "Hippodrome", "Grande Cascade"],

@@ -106,7 +106,7 @@ export default function HeroBlock({
             <div className="visual-container">
               <Image
                 src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=1200"
-                alt="Canapé de prestige dans un intérieur raffiné - Service de nettoyage professionnel à domicile en Île-de-France"
+                alt="Canapé de prestige dans un intérieur raffiné - Service de nettoyage professionnel à domicile à Paris et petite couronne"
                 width={1200}
                 height={800}
                 priority

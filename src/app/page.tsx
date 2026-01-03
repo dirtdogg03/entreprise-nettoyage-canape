@@ -23,9 +23,9 @@ export default function HomePage() {
   return (
     <>
       <HeroBlock
-        subtitle={`Expert en Nettoyage de Canapé - ${company.serviceArea.headquarters} et environs`}
+        subtitle="Expert en Nettoyage de Canapé - Paris et Petite Couronne"
         title="Nettoyage de Canapé à Domicile"
-        description={`Service professionnel de nettoyage de canapés, fauteuils et sièges à domicile. Intervention rapide en Seine-Saint-Denis, Paris et Val-de-Marne. Devis gratuit au ${company.phone}.`}
+        description={`Service professionnel de nettoyage de canapés, fauteuils et sièges à domicile. Intervention rapide à Paris et en petite couronne (75, 92, 93, 94). Devis gratuit au ${company.phone}.`}
         ctaText="Devis Gratuit"
         ctaHref="/contact"
       />
